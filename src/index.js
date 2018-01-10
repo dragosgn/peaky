@@ -1,4 +1,4 @@
-export default (contetn, words) => (
+export default (content, words) => (
   content.replace(
     new RegExp(words.join('|'), 'i'),
     '***'
