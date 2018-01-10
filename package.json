@@ -1,0 +1,29 @@
+{
+  "name": "peaky",
+  "version": "1.0.0",
+  "description": "Filters out a list of sensitive words.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragosgn/peaky.git"
+  },
+  "keywords": [
+    "filter",
+    "words",
+    "sensitive"
+  ],
+  "author": "Dragos Nedelcu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragosgn/peaky/issues"
+  },
+  "homepage": "https://github.com/dragosgn/peaky#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
