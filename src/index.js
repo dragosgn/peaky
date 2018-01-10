@@ -1,6 +1,6 @@
-export default (content, words) => (
+export const peaky = (content, words) => (
   content.replace(
-    new RegExp(words.join('|'), 'i'),
+    new RegExp(words.join('|'), 'ig'),
     '***'
   )
 )

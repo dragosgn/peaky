@@ -1,4 +1,4 @@
-import peaky from '.'
+import {peaky} from '.'
 
 test("replaces blacklisted words", () => (
   expect(peaky(
